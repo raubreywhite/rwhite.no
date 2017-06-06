@@ -8,7 +8,7 @@ set -e
 git config --global user.email "a@rwhite.no"
 git config --global user.name "Richard White"
 
-git add --all *
+git add .
 git commit -m"Update the website" || true
 git checkout gh-pages
 git clone -b gh-pages https://raubreywhite@github.com/${TRAVIS_REPO_SLUG}.git book-output
