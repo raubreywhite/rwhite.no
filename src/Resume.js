@@ -72,8 +72,12 @@ class App extends Component {
                 <li>Excessive mortality using the death registry</li>
                 </ul>
                 </li>
-                <li>Statistician on the data monitoring committee (DMC) for the PEEP RCT in Haydom, Tanzania</li>
-                <li>Statistician on the data monitoring committee (DMC) for the Safer Births Moyo RCT in Muhimbili, Tanzania</li>
+                <li>Statistician on the data monitoring committee (DMC) for the:
+                <ul>
+                <li>PEEP RCT in Haydom, Tanzania</li>
+                <li>Safer Births Moyo RCT in Muhimbili, Tanzania</li>
+                </ul>
+                </li>
                 </ul>
                 
                 <h4>Statistician - Infectious Disease Epidemiology, Oslo, Norway (06.2014 - 05.2016)</h4>

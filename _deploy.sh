@@ -10,11 +10,15 @@ git commit -m"Update the website" || true
 git checkout gh-pages
 git reset --hard master
 
+rm README.md package.json
+rm -rf static
+
 cd build
-rm -rf public
-rm -rf src
-cp -r * ../
+cp -r . ../
+cd ..
 git add .
 git commit -m"Update the website" || true
 git push -f origin gh-pages
 git checkout master
+git reset --hard master
+
