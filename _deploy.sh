@@ -16,4 +16,5 @@ rm -rf src
 cp -r * ../
 git add .
 git commit -m"Update the website" || true
-git push -q origin gh-pages
+git push -f origin gh-pages
+git checkout master
